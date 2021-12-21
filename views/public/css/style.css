@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+#exp{
+    border: brown;
+    border-radius: 3px;
+}
+body{
+    width: 500px;
+    font-style: arial;
+    font-size: 12px;
+    border: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    margin-inline: 10px;
+}
+button{
+    background-color: steelblue;
+    color: white;
+    margin-trim: 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+    text-align: left;
+    color: lightgrey;
+}
+body{
+    width: 500px;
+    font-style: arial;
+    font-size: 12px;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    background-color: steelblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+</style>
+<body>
+    <div id="conteneur">
+        <div id="lisere">
+            <p></p>
+        </div>
+        <div id="page">
+            <div id="header">
+                <div id="title">
+                    <h1>Encoder les données de la pièce</h1>
+                </div>
+                <div id="form" style="display: flex; flex-direction: column;">
+                    <label for="piece">Pièce:</label><br>
+                    <input type="text" name="Pièce" id="piece" title="Pièce">
+                    Largeur : <input type="number" name="largeur" id="largeur">
+                    Longueur : <input type="number" name="longueur" id="longeur">
+                    <button type="submit" >Enregistrer</button>
+                    <button id="surface" >Calculer la surface</button>
+                </div>
+            </div>
+            <div id="content">
+                <div id="exp">
+                    
+                </div>
+                <div id="comp">
+                    
+                </div>
+                <div id="for">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
